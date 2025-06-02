@@ -1,47 +1,45 @@
-# Agentic LLM Frameworks, RAG, and Development Kits
+# Agentic LLM & RAG Ecosystem Guide
 
-This repository provides a curated, in-depth comparison of modern agentic reasoning frameworks, Retrieval-Augmented Generation (RAG) solutions, LLM hosting strategies, and multi-agent development kits for Large Language Models (LLMs).
+A comprehensive, practical guide to building intelligent applications with modern agent frameworks, RAG systems, and multi-agent architectures.
 
-## 📁 Directory Structure
+## 🌟 Overview
 
-- `docs/`
-  - `agent/`
-    - [`agent_types.md`](docs/agent/agent_types.md): Comparison of agentic LLM reasoning frameworks (ReAct, ReWOO, Reflexion, AutoGPT, Toolformer).
-    - [`rag_frameworks.md`](docs/agent/rag_frameworks.md): Comprehensive review of RAG frameworks (LangChain, RAGFlow, LlamaIndex, Dify, etc.).
-  - `llm/`
-    - [`llm_hosting.md`](docs/llm/llm_hosting.md): Guide to self-hosted LLM solutions (vLLM, Ollama, llama.cpp).
-    - [`llm_variants.md`](docs/llm/llm_variants.md): Overview of state-of-the-art LLM variants by category.
-    - [`self_host_llm.md`](docs/llm/self_host_llm.md): Docker deployment guide for Qwen 3 MoE with vLLM, LiteLLM, and Langfuse.
-  - `multi_agent/`
-    - [`agent_dev_kits.md`](docs/multi_agent/agent_dev_kits.md): Comparison of agent development kits (LangChain, CrewAI, Google ADK, Qwen-Agent).
-- `examples/`
-  - [`sample_agent.ipynb`](examples/sample_agent.ipynb): (Placeholder) Example notebook for agentic LLM experimentation.
+This repository contains in-depth analysis, comparison guides, and implementation examples for building production-ready agentic applications with Large Language Models. Topics cover reasoning frameworks, retrieval-augmented generation, self-hosting, and multi-agent coordination.
 
-## 📝 Contents
+## 📊 Key Topics
 
-- **Agentic LLM Reasoning Frameworks:**  
-  See [`docs/agent/agent_types.md`](docs/agent/agent_types.md) for a deep dive into agentic reasoning paradigms.
+### Agent Reasoning Systems
+- [ReAct, ReWOO, Reflexion patterns](docs/agent/agent_types.md)
+- [Tool integration & Memory Control Protocols](docs/agent/tool_and_mcp.md)
 
-- **RAG Frameworks:**  
-  See [`docs/agent/rag_frameworks.md`](docs/agent/rag_frameworks.md) for a comparison of leading RAG solutions.
+### RAG & Retrieval Systems
+- [Framework Comparison](docs/agent/rag_frameworks.md) - LangChain, LlamaIndex, RAGFlow, Dify
+- [Evaluation Methods](docs/agent/rag_frameworks.md#evaluation)
 
-- **LLM Hosting & Variants:**  
-  - [`docs/llm/llm_hosting.md`](docs/llm/llm_hosting.md): Self-hosting strategies and performance.
-  - [`docs/llm/llm_variants.md`](docs/llm/llm_variants.md): Model landscape and capabilities.
-  - [`docs/llm/self_host_llm.md`](docs/llm/self_host_llm.md): Production-ready Docker deployment.
+### LLM Infrastructure
+- [Self-hosting Options](docs/llm/llm_hosting.md) - vLLM, Ollama, llama.cpp
+- [Model Variants & Selection Guide](docs/llm/llm_variants.md)
+- [Docker Deployment Guide](docs/llm/self_host_llm.md) - Qwen 3 MoE, LiteLLM, Langfuse
 
-- **Multi-Agent Development Kits:**  
-  See [`docs/multi_agent/agent_dev_kits.md`](docs/multi_agent/agent_dev_kits.md) for a feature-by-feature comparison.
+### Multi-Agent Architectures
+- [Development Kit Comparison](docs/multi_agent/agent_dev_kits.md) - LangChain, CrewAI, Google ADK, Qwen-Agent
+- [Advanced Research & Applications](docs/multi_agent/deep_research.md)
+
+### Practical Applications
+- [Code Generation Agents](docs/applications/code_agent.md)
+- [Sample Implementation](examples/sample_agent.ipynb)
 
 ## 🚀 Getting Started
 
-1. Explore the documentation in the `docs/` directory for detailed comparisons and deployment guides.
-2. Use the [`examples/sample_agent.ipynb`](examples/sample_agent.ipynb) notebook as a starting point for your own agentic LLM experiments.
+1. Explore topic guides in the `docs/` directory
+2. Run the example notebook at [`examples/sample_agent.ipynb`](examples/sample_agent.ipynb)
+
+## 📝 Contributing
+
+Contributions welcome! Please see our contribution guidelines for details.
 
 ## 📚 License
 
-This repository is for educational and research purposes. Refer to individual frameworks’ licenses for production use.
+This repository is for educational and research purposes. When using specific frameworks, please refer to their individual licenses for production use.
 
 ---
-
-For more, see the docs linked above or browse the [docs/](docs/) directory.
